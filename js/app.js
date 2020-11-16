@@ -24,7 +24,7 @@ function onClick(e) {
   colorBox.style.backgroundColor = `rgb(${e.offsetY}, ${e.offsetX}, ${number}`;
 
   let activeColor = document.createElement('h3');
-  activeColor.textContent = `RGB(${e.offsetY}, ${e.offsetX}, ${number})`;
+  activeColor.textContent = `rgb(${e.offsetY}, ${e.offsetX}, ${number})`;
   activeColor.className = 'saved-colors';
   
   container.appendChild(colorDiv);
